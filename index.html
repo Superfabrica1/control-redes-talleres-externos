@@ -35,7 +35,11 @@
 <body>
   <main>
     <h1>Control de redes - Talleres externos</h1>
-    <img src="./resumen%20Gisela%20debora.png" alt="Resumen Gisela y Debora">
+    <img id="resumen" alt="Resumen Gisela y Debora">
   </main>
+  <script>
+    document.getElementById("resumen").src =
+      "./resumen%20Gisela%20debora.png?v=" + Date.now();
+  </script>
 </body>
 </html>
